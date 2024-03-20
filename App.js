@@ -32,91 +32,19 @@ import ChartKitScreen from './screens/week5/ChartKitScreen';
 import Home from './screens/week6/Home';
 import FlatListExample from './screens/week6/FlatListExample';
 import Event from './components/week6/Event';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeStack from './navigations/HomeStack';
+import BottomTab from './navigations/BottomTab';
+import RootStack from './navigations/RootStack';
 
 export default function App() {
   return (
-    //<Ex01 />
-    //<Ex02 />
-    //<Ex03 />
-    //<Ex04 />
-    //<Ex05 />
-    //<Ex06 />
-    //<Ex07/>
-    //<Ex08/>
-    //<Ex09 />
-    //<Ex10 />
-    //<Ex11 />
-    //<Ex12 />
-    //<Extra />
-    //<Extra2 />
-    //<Travel/>
-    //<PaperProvider>
-      //<TestPaper />
-    //</PaperProvider>
-    //<Resort/>
-    //<PaperQuiz/>
-    //<Health />
-    // <ChartKitScreen/>
-    <Home />
-    // <FlatListExample />
-    
 
-
-
-
-
-
-
-
-
-
-
-
-    // <View style={{ flex: 1 }}>
-      //<TextInput
-        //keyboardType="email-address"
-        //autoCapitalize="none"
-        //autoCorrect={false}
-        //maxLength={30}
-        //multiline={false}
-        //placeholder="Please enter your email"
-       // returnKeyType="next"
-        //onChangeText={(text) => { }}
-        //defaultValue="Default text"
-      ///>
-
-      //<Button
-        //title="Press me"
-        //onPress={() => Alert.alert("Simple Button pressed")}
-       // color="#665544"
-      ///>
-      //<Text> Hello World </Text>
-
-      //<View style={{ flex: 1, flexDirection: 'column' }}>
-       // {/* Fixed Size */}
-        //<View style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: 50 }}>
-          //<Image style={{ width: 150, height: 100 }} source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }} />
-          //<Image style={{ width: 150, height: 150 }} source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }} />
-          //<Image style={{ width: 150, height: 150, borderRadius: 150 / 2 }} source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }} />
-        //</View>
-      //</View>
-
-      //<FontAwesome name="heart" size={32} color="orange" />
-
-      //<Greeting name='Rexxar' />
-        //<Greeting name='Jaina' />
-        //<Greeting name='Valeera' />
-
-
-      
-
-
-
-
-
-
-
-    //</View>
+    <NavigationContainer>
+      {/* <HomeStack /> */}
+      {/* <BottomTab /> */}
+      <RootStack />
+    </NavigationContainer>
 
   );
 }
