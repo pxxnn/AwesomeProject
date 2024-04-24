@@ -26,11 +26,11 @@ export default function RootStack() {
       <Stack.Screen name="YourHealth" component={YourHealth} />
       <Stack.Screen name="TodoList" component={TodoList} />
 
-      <Stack.Screen name="Location" component={Location} />
-      <Stack.Screen name="LocationQuiz" component={LocationQuiz} />
-      <Stack.Screen name="Book" component={Book} options={{ title: "Book" }} />
-      <Stack.Screen name="BookDetail" component={BookDetail} options={{ title: "Book Detail" }} />
-      <Stack.Screen name="BookForm" component={BookForm}   />
+      {/* <Stack.Screen name="Location" component={Location} /> */}
+      {/* <Stack.Screen name="LocationQuiz" component={LocationQuiz} /> */}
+      {/* <Stack.Screen name="Book" component={Book} options={{ title: "Book" }} /> */}
+      {/* <Stack.Screen name="BookDetail" component={BookDetail} options={{ title: "Book Detail" }} /> */}
+      {/* <Stack.Screen name="BookForm" component={BookForm}   /> */}
 
 
 
